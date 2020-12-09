@@ -1,0 +1,58 @@
+﻿[
+{
+	"id":1001,
+	"name":"普通攻击",
+	"mp":0,
+	"coldTime":0,
+	"applyTime":0,
+	"distance":0,
+	"skillType":"Normal",
+	"level":1,
+	"description":"普通攻击：连续按下最多产生三段攻击,每段造成100%攻击力的伤害",
+	"value":1,
+	"sprite":"Sprites/Skills/NormalAttack",
+	"effectPath":" "
+},
+{
+	"id":2001,
+	"name":"火鸟术",
+	"mp":10,
+	"coldTime":2,
+	"applyTime":0,
+	"distance":5,
+	"skillType":"Direction",
+	"level":1,
+	"description":"火鸟术：释放火鸟,对接触到的敌人造成150%攻击力的伤害\n需要等级:1\n冷却时间:2s         Mp:10",
+	"value":1.5,
+	"sprite":"Sprites/Skills/FireBird",
+	"effectPath":"Effect/FireBird_Effect"
+},
+{
+	"id":3001,
+	"name":"战吼",
+	"mp":20,
+	"coldTime":10,
+	"applyTime":10,
+	"distance":0,
+	"skillType":"Buff",
+	"level":2,
+	"description":"战吼：发出怒吼,10秒内增加20%攻击力\n需要等级:2\n冷却时间:10s        Mp:20",
+	"value":1.2,
+	"sprite":"Sprites/Skills/Growl",
+	"effectPath":"Effect/Growl_Effect"
+},
+{
+	"id":4001,
+	"name":"剑刃风暴",
+	"mp":25,
+	"coldTime":5,
+	"applyTime":0,
+	"distance":10,
+	"skillType":"Position",
+	"level":2,
+	"description":"剑刃风暴：在目标位置释放剑刃风暴，范围内造成8段50%攻击力的伤害\n需要等级:2\n冷却时间:5s         Mp:25",
+	"value":3,
+	"sprite":"Sprites/Skills/SwordStorm",
+	"effectPath":"Effect/BlackHits_Effect"
+}
+]
